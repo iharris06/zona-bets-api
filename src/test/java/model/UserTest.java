@@ -1,9 +1,11 @@
 package model;
 
 import org.junit.jupiter.api.Test;
-import static org.junit.Assert.*;
 
-public class UserTests {
+import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.*;
+
+class UserTest {
     private User user;
     private final String expectedName = "Jack Johnson";
     private final double expectedBank = 123.00;
